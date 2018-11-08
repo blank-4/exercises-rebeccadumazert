@@ -11,4 +11,4 @@ Reprendre la page HTML créée avec l'[exercice 4](../exercice4) et y apporter l
   - NodeJS
     - C'est un framework permettant la programmation d'applications ou de serveurs web.
   - Base de données (SQL)
-    - C'est grâce à ces dernière que le contenu dynamiquement généré est stocké. Le langage généralement utilisé pour dialoguer avec la base de données
+    - C'est grâce à ces dernière que le contenu dynamiquement généré est stocké. Le langage généralement utilisé pour dialoguer avec la base de donnees
