@@ -10,7 +10,7 @@ aside > h1 {
 .lorem span {
     font-weight: bold;
 }
-span [title="Lorem Ipsum"] {
+span[title="Lorem Ipsum"] {
     font-style: italic
 }
 p { 
