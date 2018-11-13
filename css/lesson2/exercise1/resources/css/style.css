@@ -1,0 +1,22 @@
+ul > li {
+    background-color: #00FF00;
+}
+.submenu a {
+    text-decoration:none; 
+}
+aside > h1 {
+    font-size: smaller;
+}
+.lorem span {
+    font-weight: bold;
+}
+span [title="Lorem Ipsum"] {
+    font-style: italic
+}
+p { 
+    text-align : justify;
+}
+.title {
+    text-align: center;
+    color: red;
+}
