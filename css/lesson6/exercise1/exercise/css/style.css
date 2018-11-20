@@ -37,7 +37,7 @@ li {
 .section3:target {
     display: inline;
     text-align: justify;
-    color: blueviolet
+    color: blueviolet;
 }
 
 nav:hover {
@@ -46,7 +46,7 @@ nav:hover {
 }
 
 a:hover {
-    color: blanchedalmond
+    color: blanchedalmond;
 }
 
 .fermer {
