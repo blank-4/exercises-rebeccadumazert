@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+.section1 {
+    display: none;
+}
+
+.section1:target {
+    display: inline;
+    text-align: justify;
+    color: red;
+}
+
+.section2 {
+    display: none;
+}
+
+.section2:target {
+    display: inline;
+    text-align: justify;
+    color: black;
+}
+
+.section3 {
+    display: none;
+}
+
+.section3:target {
+    display: inline;
+    text-align: justify;
+    color: blueviolet
+}
+
+nav:hover {
+    background-color: blueviolet;
+    transition: background-color 2s;
+}
+
+a:hover {
+    color: blanchedalmond
+}
+
+.fermer {
+    height: 10px;
+    width: 10px;
+}
