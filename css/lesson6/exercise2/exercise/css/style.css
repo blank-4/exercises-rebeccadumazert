@@ -15,7 +15,9 @@ span {
 }
 
 @keyframes barre {
-    0% { width: Opx;}
-    100% {width: 400px;}
+    0% { width: Opx; }
+    50% { width: 200px; background-color: darkorange; }
+    100% {width: 400px;
+    background-color: darkred;}
 }
 
