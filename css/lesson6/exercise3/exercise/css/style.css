@@ -26,10 +26,6 @@ body {
     background-color: rgb(248, 147, 110);
 }
 
-a {
-    text-decoration: none;
-}
-
 nav a {
     position: absolute;
     top : 10px;
@@ -53,3 +49,12 @@ a:visited {
 a, a:visited {
     text-decoration: none;
 }
+
+main {
+    width: 100%;
+}
+
+#open {
+    text-align: center;
+}
+

@@ -10,13 +10,16 @@ li {
     display: inline;
 }
 
+main > section:target {
+    display: inline;
+    text-align: justify;
+}
+
 .section1 {
     display: none;
 }
 
 .section1:target {
-    display: inline;
-    text-align: justify;
     color: red;
 }
 
@@ -25,8 +28,6 @@ li {
 }
 
 .section2:target {
-    display: inline;
-    text-align: justify;
     color: black;
 }
 
@@ -35,8 +36,6 @@ li {
 }
 
 .section3:target {
-    display: inline;
-    text-align: justify;
     color: blueviolet;
 }
 
@@ -53,3 +52,4 @@ a:hover {
     height: 10px;
     width: 10px;
 }
+
