@@ -36,12 +36,6 @@ li {
     color: white;
 }
 
-a:hover {
-    background: darkslategrey;
-    border-radius: 50%;
-    transition: 2s;
-}
-
 a:visited {
     color: rgb(226, 96, 96);
 }
@@ -57,4 +51,5 @@ main {
 #open {
     text-align: center;
 }
+
 

@@ -1,5 +1,6 @@
 a {
     text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -40,8 +41,9 @@ main > section:target {
 }
 
 nav:hover {
-    background-color: blueviolet;
+    background-color: rgb(31, 2, 58);
     transition: background-color 2s;
+    border-radius: 10% 10% 10% 10%;
 }
 
 a:hover {

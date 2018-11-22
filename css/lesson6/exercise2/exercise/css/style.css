@@ -7,7 +7,7 @@ div {
 
 span {
     display: inline-block; 
-    background-color: crimson;
+    background-color: darkred;
     width: 0px;
     height: 40px;
     border-radius: 16px;
@@ -16,8 +16,8 @@ span {
 
 @keyframes barre {
     0% { width: Opx; }
-    50% { width: 200px; background-color: darkorange; }
+    50% { width: 200px; background-color: darkred; }
     100% {width: 400px;
-    background-color: darkred;}
+    background-color: darkorange;}
 }
 
