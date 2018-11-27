@@ -1,0 +1,57 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav {
+    text-align: center;
+}
+
+li {
+    display: inline;
+}
+
+main > section:target {
+    display: inline;
+    text-align: justify;
+}
+
+.section1 {
+    display: none;
+}
+
+.section1:target {
+    color: red;
+}
+
+.section2 {
+    display: none;
+}
+
+.section2:target {
+    color: black;
+}
+
+.section3 {
+    display: none;
+}
+
+.section3:target {
+    color: blueviolet;
+}
+
+nav:hover {
+    background-color: rgb(31, 2, 58);
+    transition: background-color 2s;
+    border-radius: 10% 10% 10% 10%;
+}
+
+a:hover {
+    color: blanchedalmond;
+}
+
+.fermer {
+    height: 10px;
+    width: 10px;
+}
+

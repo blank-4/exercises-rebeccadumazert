@@ -1,0 +1,23 @@
+div {
+    width: 400px;
+    height: 40px;
+    background-color: #191919;
+    border-radius: 16px;
+}
+
+span {
+    display: inline-block; 
+    background-color: darkred;
+    width: 0px;
+    height: 40px;
+    border-radius: 16px;
+    animation: barre 2s linear 0s infinite;
+}
+
+@keyframes barre {
+    0% { width: Opx; }
+    50% { width: 200px; background-color: darkred; }
+    100% {width: 400px;
+    background-color: darkorange;}
+}
+
