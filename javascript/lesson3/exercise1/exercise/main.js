@@ -8,7 +8,7 @@ On veut que la fonction écrive "hello world !" dans la console.
  */
 
  function showHelloWorld() {
-    console.log("Hello World! or death?")
+    console.log("Hello World! or death?");
  }
 
  showHelloWorld();
