@@ -1,4 +1,4 @@
-/*
+/* /*
 
 * On va déclarer une une variable "position"
 et lui donner comme valeur "Belleville".
@@ -32,5 +32,4 @@ switch (position) {
         break;
     default:
         console.log("Je ne sais pas où tu es");
-        break;
-}
+} 
