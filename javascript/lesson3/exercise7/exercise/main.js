@@ -5,12 +5,14 @@
 * Elle prend en paramètre le nombre
 * Elle retourne son opposé
  */
-
-function opposenb(nombre){
-    return nombre * -1;
-}
-console.log(opposenb(3));
  function inversenb(nombre) {
-    return 1/nombre;
+    return 1 / nombre;
 }
 console.log(inversenb(10));
+
+/*__________________________________________________*/
+
+function opposenb(nombre){
+    return nombre * -1;  /* ou return -nombre */
+}
+console.log(opposenb(3));
