@@ -11,18 +11,18 @@ Créer une fonction qui calcule le diamètre d'un cercle :
 * Elle retourne le diamètre
  */
 
- function cercle(rayonducercle) {
+ function cercleAire(rayon) {
     var res= Math.PI*(rayonducercle*rayonducercle);
     return res;
  } 
  console.log(cercle(12.5));
 
- function pcercle(rayoncercle) {
+ function cerclePerimetre(rayon) {
     return 2*Math.PI*rayoncercle; 
 }
 console.log(pcercle(4.2));
 
-function cercle3 (raycercle) {
+function cercleDiametre (rayon) {
     return (raycercle*2);
 }
 console.log(cercle3(4));
