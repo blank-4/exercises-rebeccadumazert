@@ -7,7 +7,7 @@
 
 function puissance1(nombre, puissance) {
     var res = 1 ; 
-    for ( var i = 0 ; i < puissance ; i++) {
+    for ( var i = 1 ; i < puissance ; i++) {
        res = res * nombre; 
     }
     return res;
