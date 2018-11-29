@@ -3,7 +3,7 @@ Cette fonction doit retourner le plus grand.
  */
 
  function number(nb1, nb2) {
-    if (nb1 > nb2){
+    if (nb1 > nb2) {
         return nb1;
     } 
     else {
