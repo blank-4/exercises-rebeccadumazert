@@ -22,9 +22,7 @@ function exercice1() {
         console.log(inventaire.length);
         console.log(inventaire[0]);
     inventaire.push("sauce blanche");
-        console.log(inventaire.length);
-
-        
+        console.log(inventaire.length);   
     inventaire.pop();
         console.log(inventaire);
     deuxieme(inventaire);
@@ -33,7 +31,6 @@ function exercice1() {
 function deuxieme(tab) {
     for (var i in tab) {
     console.log(i + " = " + tab[i]);
+    }
 }
-}
-deuxieme();
 exercice1();
