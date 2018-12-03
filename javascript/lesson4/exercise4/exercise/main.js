@@ -20,9 +20,8 @@
      console.log(monTableau.shift());
      monTableau.push("aprem");
      console.log(monTableau.length);
-     var reu = monTableau.join("-");
-     console.log(reu);
-     console.log(reu.toUpperCase());
+     console.log(monTableau.join("-"));
+     console.log(monTableau.join("-").toUpperCase());
     }
 
  exercice4();
