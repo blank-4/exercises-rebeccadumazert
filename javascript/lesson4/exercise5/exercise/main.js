@@ -8,8 +8,8 @@
 
  function exercice5() {
      var maString = "Les culottes sont";
-     console.log(maString.substr(4));
-     var maStringCopy = maString.substr(4).split(" ").reverse().join(" ");
+     console.log(maString.substr(maString.length/2));
+     var maStringCopy = maString.substr(maString.length/2).split(" ").reverse().join(" ");
      console.log(maStringCopy);
  }
 
