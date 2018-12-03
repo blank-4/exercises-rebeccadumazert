@@ -7,9 +7,9 @@
  */
 
  function exercice5() {
-     var maString = "culottes";
+     var maString = "Les culottes sont";
      console.log(maString.substr(4));
-     var maStringCopy = maString.substr(4).split("").reverse().join("");
+     var maStringCopy = maString.substr(4).split(" ").reverse().join(" ");
      console.log(maStringCopy);
  }
 
