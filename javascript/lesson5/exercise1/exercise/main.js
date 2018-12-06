@@ -28,5 +28,7 @@ le "p" devra être en display none .
 
  function color() {
     var color = ["red","yellow","black","green","blue"];
-    document.getElementById('texte').style.color =  color[Math.floor(Math.random()*5)]
- }
+    var res = color[Math.floor(Math.random()*5)];
+    document.getElementById('texte').style.color = res;
+    console.log(res);
+}
