@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+   <!--  <div id="app">
+        <img v-bind:width="varWidth" src="http://simplon-dashboard-project.herokuapp.com/assets/images/Trombi/promo3/miniature/tn_yoann-gablowski.jpg"/>
+        <p v-show="afficher" v-bind:title="monTitre">sisi flo</p>
+    </div> -->
+  <!--   <div id="app">
+            <p v-if="afficher">olé</p>
+            <p v-else>oops</p>
+    </div> -->
+    <div id="app">
+        <ul>
+          <li v-for="prof in profs">{{ prof }}</li>
+        </ul>
+      </div>
+    <script src="main.js"></script>
+</body>
+</html>
