@@ -5,9 +5,10 @@
     <title>Lesson 7 - Exercise 8</title>
   </head>
   <body>
-    <!-- Component template -->
     <div id="app">
-
+      <input type="text" v-model="monText"> 
+      <button @click="requete()">Rechercher</button>
+      <section>Résultat de recherche pour : <h1 v-model="message">{{ message }}</h1></section>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
     <script type="text/javascript" src="script.js"></script>
