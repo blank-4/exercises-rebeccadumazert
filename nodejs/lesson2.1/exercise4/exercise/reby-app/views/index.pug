@@ -1,0 +1,8 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p= data.ip
+  p= data.headers.host
+  p=data.get("user-agent")
