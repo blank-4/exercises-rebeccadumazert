@@ -1,0 +1,11 @@
+extends layout
+
+block content
+  h1= title
+  p Welcome to #{title}
+  p Résultat #{json}
+  p Les résultats sont en JSON, on n'a pas trop saisi la consigne désolé-e-s
+  ul 
+    each res in result
+        li 
+            a(target="_blank" href="images/" + res) #{res}
