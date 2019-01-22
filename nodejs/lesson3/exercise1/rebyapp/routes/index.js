@@ -7,7 +7,7 @@ router.get('/', function(req, res, next) {
 });
 
 router.get("/form", (req, res, next) => {
-  res.json({ user: req.query.user})
+  res.json({ user: req.query.user, password1: req.query.pass})
 })
 
 router.post('/form', function(req, res, next) {
