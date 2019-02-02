@@ -6,8 +6,13 @@ block content
         each err in tartifkette
             li= err
     form(action="/form" method="POST")
-        input(type="text" name="lastname" value="")
-        input(type="text" name="firstname" value="")
-        input(type="number" name="age" value="")
-        input(type="email" name="email" value="")
+        input(type="text" name="lastname" value="" placeholder="Nom")
+        br
+        input(type="text" name="firstname" value="" placeholder="Prénom")
+        br
+        input(type="number" name="age" value="" placeholder="Age")
+        br
+        input(type="email" name="email" value="" placeholder="Mail")
+        br
+        br
         input(type="submit" value="Send !")
