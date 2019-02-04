@@ -1,13 +1,13 @@
-ul li {
+ul > li {
     background-color: #00FF00;
 }
 
 .submenu a {
-    text-decoration: none;
+    text-decoration:none; 
 }
 
-aside.left > h1 {
-    font-size: .6em;
+aside > h1 {
+    font-size: smaller;
 }
 
 p.lorem span {
@@ -18,8 +18,8 @@ span[title] {
     font-style: italic;
 }
 
-* p {
-    text-align: justify;
+p { 
+    text-align : justify;
 }
 
 span.title {

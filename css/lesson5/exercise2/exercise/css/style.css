@@ -1,0 +1,81 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    background-color: aliceblue;
+}
+
+header { 
+    background-color: aqua; 
+}
+
+nav { 
+    background-color: coral;
+    
+}
+
+main {
+    background-color: seagreen;
+    grid-area: main;
+}
+
+.summary {
+    background-color: darkorange;
+    grid-area: summary;
+}
+
+.ads {
+    background-color: lightcoral;
+    grid-area: publicity;
+}
+
+footer {
+    background-color: springgreen;
+}
+
+@media (min-width : 900px) {
+.wrapper { 
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-template-areas: 
+    "summary main publicity"
+}
+
+nav li {
+    display: inline-block;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    .wrapper {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-areas: 
+        "main publicity";
+    }
+
+    li {
+        display: block;
+    }
+
+    .summary {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        display: grid;
+        grid-template-rows: 10% 1fr 1fr;
+        grid-template-areas: 
+        "publicity"
+        "main"
+        "summary";  
+        }
+    }
+
+    nav {
+        display: none;
+    }
+
+
