@@ -7,14 +7,19 @@ router.get('/', function(req, res, next) {
 });
 
 router.post('/form', function(req, res, next){
-  var error = [], email = req.body.email;
-  if (req.body.age < 0 || req.body.age > 99) {
+  var error = [];
+  var email = req.body.email;
+  var age = req.body.age;
+  var lastname = req.body.lastname;
+  var firstname = req.body.firstname;
+
+  if (age < 0 || age > 99) {
     error.push("on n'accepte pas les embryons ni les cadavres")
   }
-  if (req.body.lastname.length < 0 || req.body.lastname.length > 30 ){
+  if (lastname.length < 0 || lastname.length > 30 ){
     error.push("Veuillez saisir un prénom entre 0 et 30 caractères")    
   }
-  if (req.body.firstname.length < 0 || req.body.firstname.length > 30 ){
+  if (firstname.length < 0 || firstname.length > 30 ){
     error.push("Veuillez saisir un prénom entre 0 et 30 caractères")    
   }
   if (!email) {
@@ -30,10 +35,15 @@ router.post('/form', function(req, res, next){
   })
   
   router.post('/formulaire', function(req, res, next){
-  var error = [], 
-  pass1 = req.body.passw1, 
-  pass2 = req.body.passw2
-  user = req.body.username;
+  var error = [];
+  var pass1 = req.body.passw1;
+  var pass2 = req.body.passw2;
+  var user = req.body.username;
+  var regex = '^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$';
+
+  if(pass1.search(regex) == -1){
+    error.push("Le mot de passe n'est pas valide")
+  }
   if(pass1 !== pass2) {
     error.push("Les deux mots de passes ne sont pas identiques !")
   }
